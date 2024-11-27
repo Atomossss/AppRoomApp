@@ -50,9 +50,10 @@ import androidx.compose.ui.unit.dp
 import br.edu.up.rgm32782039.InventoryTopAppBar
 import br.edu.up.rgm32782039.R
 import br.edu.up.rgm32782039.data.Item
-import com.example.inventory.ui.item.formatedPrice
-import com.example.inventory.ui.navigation.NavigationDestination
-import com.example.inventory.ui.theme.InventoryTheme
+import br.edu.up.rgm32782039.ui.item.formatedPrice
+import br.edu.up.rgm32782039.ui.navigation.NavigationDestination
+import br.edu.up.rgm32782039.ui.theme.InventoryTheme
+
 
 object HomeDestination : NavigationDestination {
     override val route = "home"

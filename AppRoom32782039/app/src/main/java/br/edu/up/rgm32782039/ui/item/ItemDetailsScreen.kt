@@ -55,10 +55,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import br.edu.up.rgm32782039.InventoryTopAppBar
 import br.edu.up.rgm32782039.R
 import br.edu.up.rgm32782039.data.Item
-import com.example.inventory.ui.item.formatedPrice
-import com.example.inventory.ui.item.toItem
-import com.example.inventory.ui.navigation.NavigationDestination
-import com.example.inventory.ui.theme.InventoryTheme
+import br.edu.up.rgm32782039.ui.navigation.NavigationDestination
+import br.edu.up.rgm32782039.ui.theme.InventoryTheme
 
 object ItemDetailsDestination : NavigationDestination {
     override val route = "item_details"
@@ -239,7 +237,7 @@ fun ItemDetailsScreenPreview() {
         ItemDetailsBody(
             ItemDetailsUiState(
                 outOfStock = true,
-                itemDetails = com.example.inventory.ui.item.ItemDetails(1, "Pen", "$100", "10")
+                itemDetails = ItemDetails(1, "Pen", "$100", "10")
             ),
             onSellItem = {},
             onDelete = {}

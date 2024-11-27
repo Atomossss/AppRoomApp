@@ -25,8 +25,8 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import br.edu.up.rgm32782039.InventoryApplication
 import br.edu.up.rgm32782039.ui.home.HomeViewModel
 import br.edu.up.rgm32782039.ui.item.ItemDetailsViewModel
-import com.example.inventory.ui.item.ItemEditViewModel
-import com.example.inventory.ui.item.ItemEntryViewModel
+import br.edu.up.rgm32782039.ui.item.ItemEditViewModel
+import br.edu.up.rgm32782039.ui.item.ItemEntryViewModel
 
 /**
  * Provides Factory to create instance of ViewModel for the entire Inventory app
