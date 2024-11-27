@@ -16,8 +16,6 @@ package br.edu.up.rgm32782039.ui.home
  * limitations under the License.
  */
 
-package com.example.inventory.ui.home
-
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -49,9 +47,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.inventory.InventoryTopAppBar
-import com.example.inventory.R
-import com.example.inventory.data.Item
+import br.edu.up.rgm32782039.InventoryTopAppBar
+import br.edu.up.rgm32782039.R
+import br.edu.up.rgm32782039.data.Item
 import com.example.inventory.ui.item.formatedPrice
 import com.example.inventory.ui.navigation.NavigationDestination
 import com.example.inventory.ui.theme.InventoryTheme

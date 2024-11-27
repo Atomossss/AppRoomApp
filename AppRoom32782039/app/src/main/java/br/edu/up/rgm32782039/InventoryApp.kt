@@ -31,8 +31,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.inventory.R.string
-import com.example.inventory.ui.navigation.InventoryNavHost
+import br.edu.up.rgm32782039.ui.navigation.InventoryNavHost
 
 /**
  * Top level composable that represents screens for the application.

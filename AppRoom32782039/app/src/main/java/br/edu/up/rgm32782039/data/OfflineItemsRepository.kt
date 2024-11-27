@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
-package com.example.inventory.data
+package br.edu.up.rgm32782039.data
+
+import br.edu.up.rgm32782039.data.ItemsRepository
 
 class OfflineItemsRepository : ItemsRepository

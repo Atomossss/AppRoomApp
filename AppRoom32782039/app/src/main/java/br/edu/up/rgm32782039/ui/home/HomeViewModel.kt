@@ -17,7 +17,7 @@
 package br.edu.up.rgm32782039.ui.home
 
 import androidx.lifecycle.ViewModel
-import com.example.inventory.data.Item
+import br.edu.up.rgm32782039.data.Item
 
 /**
  * ViewModel to retrieve all items in the Room database.
